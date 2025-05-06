@@ -36,3 +36,11 @@ print(solution.twoSum(nums2, target2))  # Output: [0, 1]
 nums3 = [3, 1, 4, 6, 5]
 target3 = 7
 print(solution.twoSum(nums3, target3))  # Output: [1, 4]
+
+"""
+Note:
+Local binding (like assigning `get_index = num_to_index.get`) provides a slight performance benefit
+in tight loops. This is because accessing a local variable in Python is faster than repeatedly performing
+an attribute lookup like `num_to_index.get` on every iteration. Although the gain is minimal, it can add up
+in performance-critical code that runs millions of times.
+"""
