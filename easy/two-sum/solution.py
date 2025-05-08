@@ -39,6 +39,13 @@ print(solution.twoSum(nums3, target3))  # Output: [1, 4]
 
 """
 Note:
+Time Complexity: O(n)
+- We traverse the list once, and each dictionary lookup and insertion is O(1) on average.
+
+Space Complexity: O(n)
+- In the worst case, we store all n elements in the dictionary.
+
+Additional Note:
 Local binding (like assigning `get_index = num_to_index.get`) provides a slight performance benefit
 in tight loops. This is because accessing a local variable in Python is faster than repeatedly performing
 an attribute lookup like `num_to_index.get` on every iteration. Although the gain is minimal, it can add up

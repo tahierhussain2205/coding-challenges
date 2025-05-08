@@ -1,7 +1,7 @@
 ## Valid Anagram
 
 **Difficulty**: Easy  
-**Status**: Solved  
+**Platform**: LeetCode
 
 ### Problem Statement
 
@@ -14,12 +14,14 @@ An anagram is a string that contains the exact same characters as another string
 ### Examples
 
 **Example 1**:
+
 ```
 Input: s = "racecar", t = "carrace"
 Output: true
 ```
 
 **Example 2**:
+
 ```
 Input: s = "jar", t = "jam"
 Output: false

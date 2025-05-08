@@ -1,7 +1,7 @@
 # Two Sum
 
 **Difficulty**: Easy  
-**Platform**: LeetCode (or general practice)
+**Platform**: LeetCode
 
 ---
 
