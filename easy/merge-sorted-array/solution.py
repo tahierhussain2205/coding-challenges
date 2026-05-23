@@ -15,7 +15,7 @@ class Solution:
         nums2_right = n - 1
 
         # Fill nums1 from the back, picking the larger of the two current elements
-        while nums1_left < nums1_right and nums2_right >= 0:
+        while nums1_left < nums1_right and nums1_left >= 0 and nums2_right >= 0:
 
             # If nums2's current element is larger, place it at the back of nums1
             if nums2[nums2_right] > nums1[nums1_left]:
